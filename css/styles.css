@@ -17,13 +17,14 @@ body{
 .Boton{
     margin: 0.5rem;
     text-align: center;
-    padding: 0.5rem;
+    padding: 15rem;
     border: 0.2rem solid black;
     width: 2.5rem;
     padding: 1em;
     height: 2.5rem;
     background-color: rgba(0, 0, 0, 0.6);
     transition-duration: 0.1s;
+    cursor:default;
 }
 
 .Boton:hover{
