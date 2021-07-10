@@ -25,11 +25,11 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
     transition-duration: 0.1s;
     cursor:default;
+    user-select: none;
 }
 
 .Boton:hover{
-    border: 0.2rem solid rgb(253, 249, 0);
-    box-shadow: 0 0 10px yellow;
+    transform: scale(1.1);
 }
 
 .playing{
