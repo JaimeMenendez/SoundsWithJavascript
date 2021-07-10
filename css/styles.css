@@ -27,15 +27,21 @@ body{
 .Boton{
     margin: 0.5rem;
     text-align: center;
-    padding: 15rem;
+    padding: 0.5 15rem 20rem 15rem;
     border: 0.2rem solid black;
-    width: 2.5rem;
-    padding: 1em;
-    height: 2.5rem;
+    width: auto;
+    padding: 0.5rem;
+    height: auto;
+    min-height: 4rem;
+    min-width: 4rem;
     background-color: rgba(0, 0, 0, 0.6);
     transition-duration: 0.1s;
     cursor:pointer;
     user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .playing{
@@ -44,10 +50,15 @@ body{
     box-shadow: 0 0 10px yellow;
 }
 
+p{
+    display: inline-block;
+    margin: 0;
+}
 .letter{
     margin: 0;
     color: white;
     font-size: 1.6em;
+    display: inline-block;
   
 }
 
