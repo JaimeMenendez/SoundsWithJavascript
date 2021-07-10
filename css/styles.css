@@ -14,6 +14,16 @@ body{
     
 }
 
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
 .Boton{
     margin: 0.5rem;
     text-align: center;
@@ -24,7 +34,7 @@ body{
     height: 2.5rem;
     background-color: rgba(0, 0, 0, 0.6);
     transition-duration: 0.1s;
-    cursor:default;
+    cursor:pointer;
     user-select: none;
 }
 
