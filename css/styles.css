@@ -23,13 +23,9 @@ body{
     padding: 1em;
     height: 2.5rem;
     background-color: rgba(0, 0, 0, 0.6);
-    transition-duration: 0.1s;
+    transition-duration: 0.4s;
     cursor:default;
     user-select: none;
-}
-
-.Boton:hover{
-    transform: scale(1.1);
 }
 
 .playing{
@@ -50,4 +46,10 @@ body{
     color: #A7B700;
     font-weight: bold;
     text-transform: capitalize;
+}
+
+@media (hover: none) {
+    .Boton:hover{
+        color: inherit;
+    }
 }
