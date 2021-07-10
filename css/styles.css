@@ -23,7 +23,7 @@ body{
     padding: 1em;
     height: 2.5rem;
     background-color: rgba(0, 0, 0, 0.6);
-    transition-duration: 0.4s;
+    transition-duration: 0.1s;
     cursor:default;
     user-select: none;
 }

@@ -7,7 +7,6 @@ Array.prototype.forEach.call(buttons, b => {
     audio.currentTime = 0;
     audio.play();
     b.addEventListener('transitionend', e => {
-        console.log(e);
         if(e.propertyName==="transform"){
             b.classList.remove('playing');
         }
